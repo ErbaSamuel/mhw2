@@ -1,0 +1,102 @@
+header {
+  background-image: url("header2.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  height: 300;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  position: absolute;
+  font-family: 'Red Hat Mono';
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+section{
+  background-image: url("sfondoSE.jpg");
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  text-align: left;
+}
+
+#box_piatti{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#preferiti{
+  
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+:root{
+  --answer-padding:10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.Event{
+  border: 1px solid black;
+  width: calc(32,5% - 2*var(--answer-padding));
+  padding: var(--answer-padding);
+  margin-bottom: 20px;
+}
+:root{
+  --answer-padding:10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.Event{
+  border: 1px solid black;
+  width: calc(32,5% - 2*var(--answer-padding));
+  padding: var(--answer-padding);
+  margin-bottom: 20px;
+}
+.Event image {
+  width: 100%;
+}
+.Stella{
+  display: flex;
+}
+.more_info{
+  display:flex;
+}
+@media (max-width: 768px){
+  section{
+      font-size: 20px;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
